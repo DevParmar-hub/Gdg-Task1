@@ -19,7 +19,7 @@ const HeroSection = () => {
                         <div className='ml-16 mt-6 w-100 text-base text-white'>
                             Aliquam adipiscing velit semper morbi. Purus non eu cursus porttitor tristique et gravida. Quis nunc interdum gravida ullamcorper
                         </div>
-                        <button className='bg-[#FF9E0C] text-base mt-8 ml-16 w-34 h-10 rounded-xl text-white'>
+                        <button className='bg-[#FF9E0C] hover:bg-[#FFDC97] cursor-pointer text-base mt-8 ml-16 w-34 h-10 rounded-xl text-white'>
                             View all cars
                         </button>
                     </div>
@@ -63,7 +63,7 @@ const HeroSection = () => {
                                 <span className='mr-29 text-xl'>Return date</span>
                                 <input type="date" />
                             </div>
-                                <button className='h-10 w-90 mt-10 text-base font-semibold rounded-xl text-white bg-[#FF9E0C] '>
+                                <button className='h-10 w-90 mt-10 text-base font-semibold rounded-xl text-white bg-[#FF9E0C] ' >
                                     Book now
                                 </button>
                         </div>
